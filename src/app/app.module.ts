@@ -12,7 +12,6 @@ import { AppComponent } from './app.component';
 import { BsNavbarComponent } from './bs-navbar/bs-navbar.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
-import { ResumeComponent } from './resume/resume.component';
 import { BlogComponent } from './blog/blog.component';
 
 
@@ -22,7 +21,6 @@ import { BlogComponent } from './blog/blog.component';
     BsNavbarComponent,
     HomeComponent,
     AboutComponent,
-    ResumeComponent,
     BlogComponent
   ],
   imports: [
@@ -31,7 +29,6 @@ import { BlogComponent } from './blog/blog.component';
     RouterModule.forRoot([
       {path: '', component:HomeComponent},
       {path: 'about', component:AboutComponent },
-      {path: 'resume', component:ResumeComponent },
       {path: 'blog', component:BlogComponent },
     ])
      //AngularFireModule.initializeApp(environment.firebase)
